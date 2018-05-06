@@ -48,10 +48,10 @@
             this.dependentListView.FullRowSelect = true;
             this.dependentListView.GridLines = true;
             this.dependentListView.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
-            this.dependentListView.Location = new System.Drawing.Point(76, 52);
-            this.dependentListView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dependentListView.Location = new System.Drawing.Point(88, 50);
+            this.dependentListView.Margin = new System.Windows.Forms.Padding(4);
             this.dependentListView.Name = "dependentListView";
-            this.dependentListView.Size = new System.Drawing.Size(616, 280);
+            this.dependentListView.Size = new System.Drawing.Size(587, 280);
             this.dependentListView.TabIndex = 0;
             this.dependentListView.UseCompatibleStateImageBehavior = false;
             this.dependentListView.View = System.Windows.Forms.View.Details;
@@ -60,26 +60,27 @@
             // nameColumn
             // 
             this.nameColumn.Text = "Name";
-            this.nameColumn.Width = 115;
+            this.nameColumn.Width = 189;
             // 
             // lastNameColumn
             // 
             this.lastNameColumn.Text = "Last Name";
-            this.lastNameColumn.Width = 127;
+            this.lastNameColumn.Width = 181;
             // 
             // ageColumn
             // 
             this.ageColumn.Text = "Age";
+            this.ageColumn.Width = 75;
             // 
             // relationshipColumn
             // 
             this.relationshipColumn.Text = "Relationship";
-            this.relationshipColumn.Width = 99;
+            this.relationshipColumn.Width = 133;
             // 
             // addRelationshipButton
             // 
             this.addRelationshipButton.Location = new System.Drawing.Point(88, 401);
-            this.addRelationshipButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addRelationshipButton.Margin = new System.Windows.Forms.Padding(4);
             this.addRelationshipButton.Name = "addRelationshipButton";
             this.addRelationshipButton.Size = new System.Drawing.Size(150, 50);
             this.addRelationshipButton.TabIndex = 1;
@@ -91,7 +92,7 @@
             // 
             this.editRelationshipButton.Enabled = false;
             this.editRelationshipButton.Location = new System.Drawing.Point(309, 401);
-            this.editRelationshipButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.editRelationshipButton.Margin = new System.Windows.Forms.Padding(4);
             this.editRelationshipButton.Name = "editRelationshipButton";
             this.editRelationshipButton.Size = new System.Drawing.Size(150, 50);
             this.editRelationshipButton.TabIndex = 2;
@@ -103,7 +104,7 @@
             // 
             this.deleteRelationshipButton.Enabled = false;
             this.deleteRelationshipButton.Location = new System.Drawing.Point(525, 401);
-            this.deleteRelationshipButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.deleteRelationshipButton.Margin = new System.Windows.Forms.Padding(4);
             this.deleteRelationshipButton.Name = "deleteRelationshipButton";
             this.deleteRelationshipButton.Size = new System.Drawing.Size(150, 50);
             this.deleteRelationshipButton.TabIndex = 3;
@@ -121,8 +122,9 @@
             this.Controls.Add(this.addRelationshipButton);
             this.Controls.Add(this.dependentListView);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DependentForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DependentForm";
             this.ResumeLayout(false);
 
