@@ -172,7 +172,7 @@ namespace Actividad_Integradora
 
             newProfesor.setPicture(ConvertImageToByteArray(profilePictureBox.Image, ".png"));
 
-            MessageBox.Show(newProfesor.getName() + ", " + newProfesor.getPhoneNumber());
+            Close();
 
         }
 

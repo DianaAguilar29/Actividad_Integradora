@@ -27,9 +27,9 @@ namespace Actividad_Integradora
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            ProfessorProfile professorProfileWindow = new ProfessorProfile(newProfesor);
-            professorProfileWindow.ShowDialog();
+
+            PrincipalMenuForm principalMenuForm = new PrincipalMenuForm(newProfesor);
+            principalMenuForm.ShowDialog();
         }
     }
 }

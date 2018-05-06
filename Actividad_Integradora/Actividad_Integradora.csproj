@@ -52,6 +52,12 @@
     <Compile Include="AddDependentForm.Designer.cs">
       <DependentUpon>AddDependentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddTutorialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTutorialForm.Designer.cs">
+      <DependentUpon>AddTutorialForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChangePasswordForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,12 @@
     <Compile Include="Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="PrincipalMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalMenuForm.Designer.cs">
+      <DependentUpon>PrincipalMenuForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Profesor.cs" />
     <Compile Include="ProfessorProfile.cs">
       <SubType>Form</SubType>
@@ -82,9 +94,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Subjects.cs" />
     <Compile Include="Tutorials.cs" />
+    <Compile Include="TutorialsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TutorialsForm.Designer.cs">
+      <DependentUpon>TutorialsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="WorkDeveloped.cs" />
     <EmbeddedResource Include="AddDependentForm.resx">
       <DependentUpon>AddDependentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTutorialForm.resx">
+      <DependentUpon>AddTutorialForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChangePasswordForm.resx">
       <DependentUpon>ChangePasswordForm.cs</DependentUpon>
@@ -94,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalMenuForm.resx">
+      <DependentUpon>PrincipalMenuForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProfessorProfile.resx">
       <DependentUpon>ProfessorProfile.cs</DependentUpon>
@@ -108,6 +132,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TutorialsForm.resx">
+      <DependentUpon>TutorialsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
