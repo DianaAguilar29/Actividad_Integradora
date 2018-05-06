@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Actividad_Integradora
 {
-    public partial class TutorialsForm : Form
+    public partial class AddTutorialForm : Form
     {
-        Profesor professor;
-        public TutorialsForm(Profesor professor)
+        public AddTutorialForm()
         {
             InitializeComponent();
-        }
-
-        private void addButton_Click(object sender, EventArgs e)
-        {
-            AddTutorialForm addTutorialForm = new AddTutorialForm();
-            addTutorialForm.ShowDialog();
         }
     }
 }

@@ -52,6 +52,12 @@
     <Compile Include="AddDependentForm.Designer.cs">
       <DependentUpon>AddDependentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddTutorialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTutorialForm.Designer.cs">
+      <DependentUpon>AddTutorialForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChangePasswordForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     <Compile Include="WorkDeveloped.cs" />
     <EmbeddedResource Include="AddDependentForm.resx">
       <DependentUpon>AddDependentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTutorialForm.resx">
+      <DependentUpon>AddTutorialForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChangePasswordForm.resx">
       <DependentUpon>ChangePasswordForm.cs</DependentUpon>
